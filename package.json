@@ -1,0 +1,23 @@
+{
+  "name": "get-instance",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "module": "src/index.js",
+  "devDependencies": {
+    "jasmine": "^3.0.0",
+    "rollup": "^0.56.1",
+    "rollup-plugin-buble": "^0.19.2",
+    "yargs": "^4.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/btpoe/get-instance.git"
+  },
+  "scripts": {
+    "build": "node build.js",
+    "start": "node build.js --watch=1",
+    "test": "jasmine"
+  },
+  "author": "Brandon Poe <brandonpoe@me.com> (http://brandonpoe.com)",
+  "license": "MIT"
+}
